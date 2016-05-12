@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<title>JQuery</title>
+    	
+	</head>
+	     <body>
+
+            
+
+            <script type="text/javascript">
+
+
+
+              var car = {Brand:"VolksWagen", model:"Golf", hp:235};
+
+              var bil = car.Brand;
+              var modell = car.model;
+              var horsePowers = car.hp;
+
+              document.write("bilen före ändring är " + bil + " "); 
+              document.write("modell före ändring är " + modell + " ");
+              document.write("Hästkrafter före ändring är " + horsePowers);
+
+              car.Brand = "Bugatti";
+              car.modell = "Chiron";
+              car.hp = 1500;
+
+              /*document.write("bilen efter ändring är " + car.Brand + " " + car.modell);
+              document.write("Den har " + car.horsePowers + " hästkrafter");*/
+
+
+
+/****************************** Skapa objekt (klass) Sätt värden efteråt ********************
+
+               /*function Employee ()
+               {
+               		this.name;
+               		this.profession;
+               }
+
+             
+				var person = new Employee();
+				person.name = "Kalle";
+				person.profession = "Programmerare";
+
+				document.write("Den nye heter " + person.name); 
+				document.write("Hans yrke är " + person.profession);
+				*/ 
+
+
+/****************************** Skapa objekt (klass) Sätt värden med konstruktor ********************
+
+                            
+            /*   function Employee (name, profession)
+               {
+               		this.name = name;
+               		this.profession = profession;
+               }
+
+             
+				var person = new Employee("Kalle", "Utvecklare");
+
+				document.write("Den nye heter " + person.name);  */ 
+
+
+
+		    
+             
+            </script>
+
+      
+  			<p> <script>document.write("bilen efter ändring är " + car.Brand + " " + car.modell); </script></p>
+   			<p> <script>document.write("Den har " + car.hp + " hästkrafter"); </script></p>
+    		
+	     
+     </body>
+</html>
